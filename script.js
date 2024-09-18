@@ -53,7 +53,7 @@ function calcAge() {
             daysPassed.textContent = currentDay - birthDay;
         }
     } else {
-        if (birthMonth > currentMonth) {
+        if (birthMonth >= currentMonth) {
             yearsPassed.textContent = currentYear - birthYear - 1;
             if (birthDay > currentDay) {
                 monthsPassed.textContent = (12 - birthMonth + currentMonth) - 1;
@@ -82,9 +82,7 @@ function calcAge() {
         }
     }
     
-    if (yearsPassed = 1) {
-        document.querySelector(`div`).textContent
-    }
+
 }
 
 function isLeapYear(year) {
