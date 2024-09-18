@@ -14,7 +14,7 @@
             <ul>
                 <li>
                     <label for="day">DAY</label>
-                    <input type="number" id="day" placeholder="DD">
+                    <input type="number" id="day" placeholder="DD" maxlength="2">
                 </li>
                 <li>
                     <label for="month">MONTH</label>
@@ -22,14 +22,14 @@
                 </li>
                 <li>
                     <label for="year">YEAR</label>
-                    <input type="text" id="year" placeholder="YYYY">
+                    <input type="number" id="year" placeholder="YYYY" maxlength="4">
                 </li>
                 <img src="./images/icon-arrow.svg" alt="">
             </ul>
             <div class="output">
-                <div><span>--</span>years</div>
-                <div><span>--</span>months</div>
-                <div><span>--</span>days</div>
+                <div><span class="years">--</span>years</div>
+                <div><span class="months">--</span>months</div>
+                <div><span class="days">--</span>days</div>
             </div>
         </form>
         
